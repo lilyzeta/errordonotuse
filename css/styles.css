@@ -10,8 +10,8 @@
 }
 
 body {
-  font-size: ;
-  line-height: ;
+  font-family: roboto;
+  color: var(maindark);
 }
 
 .logo {
@@ -26,7 +26,6 @@ body {
 }
 .topbar {
   color: var(--maindark);
-  font-family: roboto;
   font-size: 14px;
   font-weight: 500;
 }
@@ -36,7 +35,6 @@ a:hover {
 
 .rightbar {
   color: var(--mainmid);
-  font-family: roboto;
   font-size: 14px;
   font-weight: 500;
 }
@@ -46,7 +44,6 @@ a:link {
 }
 .lead-next {
   color: var(--mainmid);
-  font-family: roboto;
   font-size: 14px;
   font-weight: 500;
   list-style: none;
