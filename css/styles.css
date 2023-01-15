@@ -142,3 +142,6 @@ a:link {
   background-color: var(--accentbright);
   color: var(--mainbright);
 }
+.imgbox{
+  background-color: var(--accentbox)
+}
