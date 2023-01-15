@@ -8,9 +8,19 @@
   --footercolor: #2f303a;
   --accentbackground: #f5f4fa;
 }
+
+body {
+}
+
 .logo {
   color: var(--accentbright);
 }
 
-body {
+.directory {
+}
+
+.promobutton {
+}
+
+.filterbutton {
 }
