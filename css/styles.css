@@ -57,5 +57,11 @@ a:link {
   list-style: none;
 }
 
+.promo {
+  font-weight: 900;
+  color: var(--mainbright);
+}
 .promobutton {
+  font-weight: 700;
+  color: var(--mainbright);
 }
