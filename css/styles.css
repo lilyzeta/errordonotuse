@@ -12,6 +12,14 @@
 body {
   font-family: roboto;
   color: var(maindark);
+  font-weight: 400;
+}
+
+a:link:active {
+  cursor: pointer;
+}
+button:hover {
+  cursor: pointer;
 }
 
 .logo {
@@ -50,7 +58,4 @@ a:link {
 }
 
 .promobutton {
-}
-
-.filterbutton {
 }
