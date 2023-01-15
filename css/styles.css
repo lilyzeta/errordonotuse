@@ -10,13 +10,46 @@
 }
 
 body {
+  font-size: ;
+  line-height: ;
 }
 
 .logo {
   color: var(--accentbright);
+  font-family: raleway;
+  font-size: 26px;
+  font-weight: 700;
 }
 
-.directory {
+.lead {
+  list-style: none;
+}
+.topbar {
+  color: var(--maindark);
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 500;
+}
+a:hover {
+  color: var(--accentbright);
+}
+
+.rightbar {
+  color: var(--mainmid);
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+a:link {
+  text-decoration: none;
+}
+.lead-next {
+  color: var(--mainmid);
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 500;
+  list-style: none;
 }
 
 .promobutton {
