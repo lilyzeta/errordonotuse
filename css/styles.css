@@ -7,12 +7,16 @@
   --background: #e5e5e5;
   --footercolor: #2f303a;
   --accentbackground: #f5f4fa;
+  --accentbox: #eeeeee;
 }
 
 body {
   font-family: roboto;
   color: var(maindark);
   font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  background-color: var(--background);
 }
 
 a:link:active {
@@ -20,6 +24,7 @@ a:link:active {
 }
 button:hover {
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .logo {
@@ -27,6 +32,7 @@ button:hover {
   font-family: raleway;
   font-size: 26px;
   font-weight: 700;
+  line-height: 1.174;
 }
 
 .lead {
@@ -36,15 +42,23 @@ button:hover {
   color: var(--maindark);
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.172;
 }
-a:hover {
+.topbar:hover {
   color: var(--accentbright);
 }
-
+.topbarback {
+  background-color: var(--mainbright);
+}
+)
 .rightbar {
   color: var(--mainmid);
   font-size: 14px;
   font-weight: 500;
+}
+
+.rightbar:hover {
+  color: var(--accentbright);
 }
 
 a:link {
@@ -56,12 +70,75 @@ a:link {
   font-weight: 500;
   list-style: none;
 }
-
+.promobody {
+  background-color: var(--footercolor);
+}
+.ourteam {
+  background-color: var(--accentbackground);
+}
 .promo {
   font-weight: 900;
   color: var(--mainbright);
+  font-size: 44px;
+  line-height: 1.36;
 }
 .promobutton {
   font-weight: 700;
+  background-color: var(--accentbright);
+  color: var(--mainbright);
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.minihead {
+  font-weight: 700;
+  line-height: 1.172;
+}
+
+.midhead {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.172;
+}
+.nametag {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.172;
+}
+.jobtitle {
+  font-size: 16px;
+  color: var(--mainmid);
+}
+.bottom {
+  font-style: normal;
+}
+.where {
+  color: var(--mainbright);
+}
+
+.digitalcontact {
+  color: var(--mainbright);
+  opacity: 0.6;
+}
+.artname {
+  font-style: bold;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.artdesc {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--mainmid);
+}
+.filter {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  background-color: var(--accentbackground);
+  border: 2px: color: var(--accentbright);
+}
+.filter:hover {
+  background-color: var(--accentbright);
   color: var(--mainbright);
 }
