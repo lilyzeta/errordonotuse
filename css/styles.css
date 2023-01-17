@@ -21,11 +21,6 @@ a:link {
 
 body {
   font-family: roboto;
-  color: var(--mainmid);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  background-color: var(--background);
 }
 
 button:hover {
@@ -95,55 +90,79 @@ ul {
   background-color: var(--footercolor);
 }
 
+.hero {
+  font-weight: 900;
+  color: var(--mainbright);
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-family: roboto;
+}
+
 .promobutton {
   font-weight: 700;
   background-color: var(--accentbright);
   color: var(--mainbright);
   font-size: 16px;
   line-height: 1.88;
-}
-
-.hero {
-  font-weight: 900;
-  color: var(--mainbright);
-  font-size: 44px;
-  line-height: 1.36;
+  letter-spacing: 0.06em;
 }
 
 /* Our Features */
 
-.featuredesc {
-}
-
 .feature-subtitle {
   font-weight: 700;
   line-height: 1.172;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--maindark);
+}
+
+.feature-desc {
+  color: var(--mainmid);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
 }
 
 /* What we Do */
 
 .whatwedo {
+  color: var(--maindark);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.172;
+  letter-spacing: 0.03em;
 }
 
 /* Our Team */
-.ourteamhead {
-}
 
 .ourteamback {
   background-color: var(--accentbackground);
 }
 
+.ourteamhead {
+  color: var(--maindark);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.172;
+  letter-spacing: 0.03em;
+}
+
 .team-nametag {
+  color: var(--maindark);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.172;
+  letter-spacing: 0.03em;
 }
+
 .team-work {
   font-size: 16px;
   color: var(--mainmid);
+  letter-spacing: 0.03em;
 }
 
 /* Portfolio Page */
@@ -154,7 +173,9 @@ ul {
   line-height: 1.63;
   background-color: var(--accentbackground);
   border: 2px;
-  color: var(--accentbright);
+  color: var(--maindark);
+  font-family: roboto;
+  letter-spacing: 0.03em;
 }
 .gallery-button:hover {
   background-color: var(--accentbright);
@@ -166,13 +187,16 @@ ul {
 }
 
 .art-name {
+  color: var(--maindark);
   font-style: bold;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .art-desc {
   font-size: 16px;
   line-height: 1.88;
   color: var(--mainmid);
+  letter-spacing: 0.03em;
 }
