@@ -50,30 +50,30 @@ ul {
   font-weight: 500;
   line-height: 1.172;
 }
-.topbar:hover {
+.nav-link:hover {
   color: var(--accentbright);
 }
 
-.rightbar {
+.nav-contact {
   color: var(--mainmid);
   font-size: 14px;
   font-weight: 500;
 }
 
-.rightbar:hover {
+.nav-contact:hover {
   color: var(--accentbright);
 }
 
 /* Footer */
 
-.bottom {
+.foot {
   font-style: normal;
 }
-.where {
+.foot-address {
   color: var(--mainbright);
 }
 
-.digitalcontact {
+.foot-contact {
   color: var(--mainbright);
   opacity: 0.6;
 }
@@ -82,7 +82,7 @@ ul {
 
 /* Hero */
 
-.promobody {
+.hero-back {
   background-color: var(--footercolor);
 }
 
@@ -94,7 +94,7 @@ ul {
   line-height: 1.88;
 }
 
-.promo {
+.hero {
   font-weight: 900;
   color: var(--mainbright);
   font-size: 44px;
@@ -103,7 +103,7 @@ ul {
 
 /* Our Features */
 
-body {
+.featuredesc {
   font-family: roboto;
   color: var(--mainmid);
   font-weight: 400;
@@ -112,38 +112,40 @@ body {
   background-color: var(--background);
 }
 
-.minihead {
+.feature-subtitle {
   font-weight: 700;
   line-height: 1.172;
 }
 
 /* What we Do */
 
-.midhead {
+.whatwedo {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.172;
 }
 
 /* Our Team */
+.ourteamhead {
+}
 
-.ourteam {
+.ourteamback {
   background-color: var(--accentbackground);
 }
 
-.nametag {
+.team-nametag {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.172;
 }
-.jobtitle {
+.team-work {
   font-size: 16px;
   color: var(--mainmid);
 }
 
 /* Portfolio Page */
 
-.filter {
+.gallery-button {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.63;
@@ -151,22 +153,22 @@ body {
   border: 2px;
   color: var(--accentbright);
 }
-.filter:hover {
+.gallery-button:hover {
   background-color: var(--accentbright);
   color: var(--mainbright);
 }
 
-.imgbox {
+.art-back {
   background-color: var(--accentbox);
 }
 
-.artname {
+.art-name {
   font-style: bold;
   font-size: 18px;
   line-height: 2;
 }
 
-.artdesc {
+.art-desc {
   font-size: 16px;
   line-height: 1.88;
   color: var(--mainmid);
