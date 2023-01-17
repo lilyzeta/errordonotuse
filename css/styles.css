@@ -19,6 +19,15 @@ a:link {
   text-decoration: none;
 }
 
+body {
+  font-family: roboto;
+  color: var(--mainmid);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  background-color: var(--background);
+}
+
 button:hover {
   cursor: pointer;
 }
@@ -104,12 +113,6 @@ ul {
 /* Our Features */
 
 .featuredesc {
-  font-family: roboto;
-  color: var(--mainmid);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  background-color: var(--background);
 }
 
 .feature-subtitle {
