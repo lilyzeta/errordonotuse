@@ -1,3 +1,5 @@
+/* Overall Site Styles: Header, Buttons, Footer */
+/* General Site Styles */
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
 :root {
   --accentbright: #2196f3;
@@ -9,21 +11,14 @@
   --accentbackground: #f5f4fa;
   --accentbox: #eeeeee;
 }
-/* Background Boxes*/
-.topbarback {
-  background-color: var(--mainbright);
+
+a:link:active {
+  cursor: pointer;
 }
-.promobody {
-  background-color: var(--footercolor);
-}
-.ourteam {
-  background-color: var(--accentbackground);
-}
-.imgbox {
-  background-color: var(--accentbox);
+a:link {
+  text-decoration: none;
 }
 
-/* Buttons */
 button:hover {
   cursor: pointer;
 }
@@ -31,42 +26,12 @@ button:hover {
 button {
   border-radius: 4px;
 }
-.promobutton {
-  font-weight: 700;
-  background-color: var(--accentbright);
-  color: var(--mainbright);
-  font-size: 16px;
-  line-height: 1.88;
+
+ul {
+  list-style: none;
 }
 
-.filter {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.63;
-  background-color: var(--accentbackground);
-  border: 2px;
-  color: var(--accentbright);
-}
-.filter:hover {
-  background-color: var(--accentbright);
-  color: var(--mainbright);
-}
-
-/* Text Styles*/
-
-body {
-  font-family: roboto;
-  color: var(maindark);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
-  background-color: var(--background);
-}
-
-a:link:active {
-  cursor: pointer;
-}
-
+/* Header */
 .logo {
   color: var(--accentbright);
   font-family: raleway;
@@ -75,10 +40,11 @@ a:link:active {
   line-height: 1.174;
 }
 
-.lead {
-  list-style: none;
+.nav-back {
+  background-color: var(--mainbright);
 }
-.topbar {
+
+.nav-link {
   color: var(--maindark);
   font-size: 14px;
   font-weight: 500;
@@ -98,42 +64,8 @@ a:link:active {
   color: var(--accentbright);
 }
 
-a:link {
-  text-decoration: none;
-}
-.lead-next {
-  color: var(--mainmid);
-  font-size: 14px;
-  font-weight: 500;
-  list-style: none;
-}
+/* Footer */
 
-.promo {
-  font-weight: 900;
-  color: var(--mainbright);
-  font-size: 44px;
-  line-height: 1.36;
-}
-
-.minihead {
-  font-weight: 700;
-  line-height: 1.172;
-}
-
-.midhead {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.172;
-}
-.nametag {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.172;
-}
-.jobtitle {
-  font-size: 16px;
-  color: var(--mainmid);
-}
 .bottom {
   font-style: normal;
 }
@@ -145,6 +77,89 @@ a:link {
   color: var(--mainbright);
   opacity: 0.6;
 }
+
+/* Studio Page: Hero, Our Features, Our Team */
+
+/* Hero */
+
+.promobody {
+  background-color: var(--footercolor);
+}
+
+.promobutton {
+  font-weight: 700;
+  background-color: var(--accentbright);
+  color: var(--mainbright);
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.promo {
+  font-weight: 900;
+  color: var(--mainbright);
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+/* Our Features */
+
+body {
+  font-family: roboto;
+  color: var(--mainmid);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.714;
+  background-color: var(--background);
+}
+
+.minihead {
+  font-weight: 700;
+  line-height: 1.172;
+}
+
+/* What we Do */
+
+.midhead {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.172;
+}
+
+/* Our Team */
+
+.ourteam {
+  background-color: var(--accentbackground);
+}
+
+.nametag {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.172;
+}
+.jobtitle {
+  font-size: 16px;
+  color: var(--mainmid);
+}
+
+/* Portfolio Page */
+
+.filter {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  background-color: var(--accentbackground);
+  border: 2px;
+  color: var(--accentbright);
+}
+.filter:hover {
+  background-color: var(--accentbright);
+  color: var(--mainbright);
+}
+
+.imgbox {
+  background-color: var(--accentbox);
+}
+
 .artname {
   font-style: bold;
   font-size: 18px;
